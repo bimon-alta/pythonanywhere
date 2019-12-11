@@ -1,0 +1,337 @@
+/* =======HEADER======= */
+header{
+    padding: 10px 0;
+    border-bottom: 1px solid #ececec;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    box-shadow: 0px 3px 6px #C1C3C736;
+    /* position: relative; */
+
+}
+
+ .company-name{
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+
+.header-nav{
+    display: table;
+    margin-left: auto;
+}
+
+.header-nav__list{
+    margin: 0;
+}
+
+.header-nav__list li{    
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-nav__list li a{
+    font-family: "Roboto";
+    font-size: 15px;
+    padding: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #2c413ff3
+}
+
+.header-nav__list li a:hover{
+    color: #f12875d0;
+}
+
+.header-nav__list li .active-page{
+    color : #f12875d0;
+}
+
+/* ========PAGE TITLE=============== */
+.page-title{
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+.page-title-background{
+    background-color: #39bcc5;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.page-title h1{
+    font-family: "Roboto";
+    font-size: 32px;
+    margin : auto;
+}
+
+.blog-insert-button{
+    color: white;
+    background: #F47522;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.company-logo{
+    padding-top: 30px;
+}
+
+/* ========HOME========= */
+.home {
+    padding: 0 100px;
+}
+.home-benefit {
+    margin-bottom: 10px;
+}
+.home-desc {
+    margin: 80px 0;
+}
+.home-desc .desc-img {
+    padding: 0 0;
+}
+.home-learn h2 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.home-icon {
+    height: 150px;
+    width: 200px;
+    border: 1px solid #d6d0d0;
+    border-radius: 5%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -----------------  BLOG PAGE ----------------------- */
+
+body{
+    color: #2c413ff3;
+    font-family: "Roboto";
+    margin-top: 58.5px;
+}
+
+.area-tombol-input{
+    display: table;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.blog-insert-button{
+    color: white;
+    background: #f12875d0;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 0 50px;
+    display: inline-block;
+}
+
+.blog-insert-button:hover{
+    color: #f12875d0;    
+    background: white;
+    text-decoration: none;
+    border: 2px solid #f12875d0;
+
+}
+
+body a {
+    text-decoration: none;
+    color: #39bcc5;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+body a:hover{
+    color: #f12875d0;
+}
+
+.left-right-container{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.body-blog-content{
+    padding: 30px 0;
+}
+
+.body-blog-content-row{
+    margin: 30px 0;
+}
+
+.body-blog-content-row p{
+    font-size: 15px;
+    margin: 0 0;
+}
+
+.blog-content-img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.article-title{
+    font-family: "Roboto";
+    font-size: 25px;
+    color: #000000
+}
+
+/* ----------------------- Mentee & Mentor ---------------------- */
+.mentee {
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-men-1 {
+    padding-left: 170px;
+    
+}
+
+.img-men-1 img {
+    vertical-align: middle;
+    border-style: none;
+    width: 200px;
+    border-radius: 20%;
+}
+
+.row_dist {
+    padding-top: 40px;
+}
+
+.txt-men-1 {
+    padding-left: 155px;
+    font-weight: bold;
+}
+
+/* -------------------------- Footer --------------------------- */
+footer {
+    margin-top: 140px;
+}
+
+.foot1, .foot2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.foot1 {
+    background-color: rgb(90, 194, 235);
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.foot2 {
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+
+div.col-md-5.foot3 {
+    padding-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div.col-md-7.foot2 {
+    padding-right: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.foot3 {
+    color: blue;
+    background-color: black;
+    text-align: left;
+    padding-top: 20px;
+}
+
+img.img-f-1 {
+    width: 150px;
+    margin-left: 20px;
+}
+
+img.img-f-2 {
+    width: 150px;
+    margin-left: 20px;
+    padding-bottom: 11px;
+}
+
+img.img-f-3 {
+    width: 150px;
+    margin-left: 20px;
+}
+
+/* ======author====== */
+.page1 img{
+    /* width: 100%; */
+}
+
+.page1 iframe{
+    width: 100%;
+    height: 35%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.page1 p span{
+    font-weight: bold;
+}
+.page1 .okay{
+    padding-top: 20px;
+}
+
+.page1 sup{
+    padding-left : 10px;
+}
+.page1 h4{
+    padding-top: 20px;
+}
+.page1 .tab{
+    padding-left: 80px;
+}
+.page1 table td {
+    padding-top :10px;
+}
+
+/* =======responsive======= */
+@media (max-width: 810px){
+    .header-nav__list li a{
+        font-family: "Roboto";
+        font-size: 13px;
+        padding: 0 5px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #000000
+    }
+
+    .company-name{
+        text-align: center;        
+    }
+
+    .header-nav{
+        text-align: center;
+        margin-right: auto;
+    }
+
+    .left-right-container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+/* =============      FORM INPUT BLOG     ================== */
+.form-sec{
+    width: 100%;
+    background: #39bcc5;
+    padding:10px;
+    margin-top: 65px;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.form-button-submit{
+    width: 100%;
+}
