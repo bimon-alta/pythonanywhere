@@ -42,8 +42,8 @@ def save_new_blog(request):
         proceed.save()
 
         # blogs = Blog.objects.all()
-        # return render(request,'challenge4/blog.html',{'blogs':blogs})
-        return redirect('blog')  #hasilnya sama dengan dua kode di atas
+        # return render(request,'challenge4/mentor.html',{'blogs':blogs})   #ini tidak direkomendasikan karena url tidak berubah
+        return redirect('/blog')  #hasilnya sama dengan dua kode di atas
 
 
 def article_base(request,blog_id):
