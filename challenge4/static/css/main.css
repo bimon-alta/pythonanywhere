@@ -181,6 +181,13 @@ body a:hover{
     font-size: 25px;
     color: #000000
 }
+.tgl-comment{
+    display: block;
+}
+
+.no_comment{
+    float: right;
+}
 
 /* ----------------------- Mentee & Mentor ---------------------- */
 .mentee {

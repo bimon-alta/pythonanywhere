@@ -10,6 +10,11 @@ def home(request):
 
 def blog(request):
     blogs = Blog.objects.all()
+    for blog in blogs:
+        blog.date_post = blog.date_post.strftime('%d-%b-%Y %H:%M')
+        if len(blog.content) > 250:
+            blog.content = blog.content[:250]
+            blog.content += '......'
     return render(request,'challenge4/blog.html',{'blogs':blogs,})
 
 def mentor(request):

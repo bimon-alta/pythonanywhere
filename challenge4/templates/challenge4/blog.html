@@ -22,7 +22,7 @@
                     <div class="header-nav">
                         <ul class="header-nav__list list-unstyled">  
                             <li> 
-                                <a href="/challenge4">Home</a>
+                                <a href="/">Home</a>
                             </li>
                             <li>
                                 <a href="" class="active-page">Blog</a>
@@ -63,9 +63,9 @@
                 <div class="col-md-12 body-blog-content">
                     <div class="body-blog-content-row">                        
                         <img src="{{blog.img_url}}" alt="" class="blog-content-img">
-                        <div>
+                        <div class='tgl-comment'>
                             <span>{{blog.date_post}}</span>
-                            <span> Comment : {{blog.total_comment}} comments</span>
+                            <span class="no_comment"> {{blog.total_comment}} comments</span>
                         </div>
                         <div class="article-title">{{blog.title}}</div>
                         <div>
